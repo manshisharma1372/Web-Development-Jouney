@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        table,tr,td,th{
+            border: 3px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+           
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th colspan="2">
+                Month
+            </th>
+            <th>
+                Amount
+            </th>
+
+            <th>
+                abcd
+            </th>
+        </tr>
+        <tr>
+            <td>
+                jan
+            </td>
+        <td rowspan="2" colspan="2">
+            100
+        </td>
+    </tr>
+        <tr>
+            <td rowspan="3">
+                feb
+            </td>
+        <td>
+            200
+        </td>
+    </tr>
+        <tr>
+            <td>
+                march
+            </td>
+            <td>
+                300
+            </td>
+        </tr>
+        <tr>
+            <td>
+                april
+            </td>
+            <td>
+                400
+            </td>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <table>
+
+        <caption > colspan rowsapan</caption>
+
+    <tr>
+        <td >abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+    </tr>
+    <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+    </tr>
+    <tr>
+        <td>abcd</td>
+        <td>abcd</td>
+        <td>abcd</td>
+    </tr>
+    <tr>  <td>abcd</td>
+        <td rowspan="2" colspan="2">abcd</td>
+        
+    </tr>
+    <tr>
+        <td>abcd</td>
+       
+    </tr>
+
+</table>
+
+<br>
+<br>
+<br>
+<table>
+
+    <colgroup>
+
+        <col span="1" style="background-color: aqua;">
+        <col span="1" style="background-color: red;">
+        <col span="1" style="background-color: green;">
+        <col span="1" style="background-color: blue;">
+        <col span="1" style="visibility: collapse;">
+    </colgroup>
+    <tr>
+        <td rowspan="2">state of health</td>
+        <td colspan="2">fasting value</td>
+        
+        <td>After Eating</td>
+    </tr>
+    <tr>
+        
+        <td>Maximum</td>
+        <td>Minimum</td>
+        <td>2 hours after eating</td>
+    </tr>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 140</td>
+    </tr>
+    <tr>
+        <td>Pre-diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+
+    <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>more than 200</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
