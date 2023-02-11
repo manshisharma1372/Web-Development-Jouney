@@ -1,0 +1,21 @@
+.box{
+    background-color: aqua;
+
+    /* translate */
+    transform: translate(100px, 250px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+
+    /*  rotate */
+     transform: rotate(-45deg); /* //anticlockwise */
+
+
+     /* scale */
+     margin: 200px;
+     transform: scale(1,4);
+     transform: scaleX(1);
+
+     /* skew */
+     transform: skew(45deg);
+     transform: skewX(-60deg);
+}
