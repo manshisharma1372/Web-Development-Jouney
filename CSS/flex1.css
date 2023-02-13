@@ -1,0 +1,81 @@
+ *{
+    box-sizing: border-box;
+ }
+ 
+ 
+ .container{
+    height: 500px;
+    border: 2px solid green;
+
+    /* to make it flex */
+    display: flex;
+
+    /* flex container properties */
+
+    /* flex-direction */
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+
+    /* flex-wrap */
+   
+    /* flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+  */
+    /* flex-flow */
+
+    /* flex-flow: row wrap; */
+   
+
+    /* justify-content -horizontal axis k respect */
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+ 
+    /* align-items - cross axis k respect mai*/
+    align-items:flex-start;
+    align-items: flex-end;
+     align-items: stretch;
+    align-items: baseline;
+    align-items: center;
+
+    gap: 10px;
+
+        /* align-content: ; */
+    
+     align-content: flex-end;
+     align-content: center;
+     align-content: space-between;
+     align-content:space-around;
+     align-content: space-evenly;
+     align-content: flex-start;
+ }
+
+ .box{
+    border:1px solid red;
+    background-color:aqua;
+    width:100px;
+    flex-basis: 100px;
+  
+ }
+
+ #box1{
+    order:1;
+    /* flex-grow: 1; */
+    flex-shrink: 4;
+    align-self: flex-end;
+    
+
+}
+#box3{
+    align-self: flex-start;
+    order:8;
+}
+#box2{
+    order: 4;
+    align-self: stretch;
+}
