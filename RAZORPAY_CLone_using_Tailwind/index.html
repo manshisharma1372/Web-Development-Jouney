@@ -8,6 +8,9 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Razorpay</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <style>
         .corefeaturesection{
             background-size:  100% 100%;
@@ -29,7 +32,7 @@
           }
         }
     </style>
-    
+
 </head>
 <body>
     <nav class="bg-deepBlue">
@@ -43,9 +46,9 @@
                 height="30px"/>
             </a>
 
-            <ul class="flex space-x-6">
+            <ul class=" flex space-x-6">
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Payments</a>
 
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
@@ -53,7 +56,7 @@
                 </li>
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Banking</a>
 
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
@@ -62,21 +65,21 @@
 
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Corporate Card</a>
 
                 </li>
 
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Payroll</a>
 
                 </li>
 
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Resources</a>
 
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
@@ -85,7 +88,7 @@
 
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Support</a>
 
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
@@ -94,7 +97,7 @@
                 
 
                 <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
-                 transition-all duration-200 relative group">
+                 transition-all duration-200 relative group hidden lg:block">
                 <a href="#">Pricing</a>
 
                 <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block
@@ -107,12 +110,13 @@
                     src="./images/india-flag.svg"
                     width="28px"
                     height="20px"
+                    class="hidden lg:block"
                     />
                 <button class="py-3 px-5 font-mullish text-white border-lightBlue border
                 rounded-sm text-sm  font-bold">Log in</button>
                 <button class="py-3 px-4 font-mullish rounded-sm text-sm font-bold
                 bg-white text-lightBlue300 border transition-all duration-200
-                hover:text-lightBlue500 flex">Sign Up
+                hover:text-lightBlue500 hidden lg:flex ">Sign Up
                 <svg
                 viewBox="0 0 24 24"
                 focusable="false"
@@ -133,7 +137,7 @@
 <!--hero section-->
 
         <section class=" relative bg-deepBlue">
-            <div class=" w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+            <div class=" w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto">
                 <!--left part-->
 
                 <div class=" space-y-8">
@@ -178,9 +182,9 @@
            
             <!-- heading -->
 
-            <h2 class=" font-mullish text-center text-2xl leading-[1.2] font-extrabold " >Accept Payments with Razorpay Payment Suite</h2>
+            <h2 class=" font-mullish text-center text-2xl leading-[1.2] font-extrabold hidden md:block" >Accept Payments with Razorpay Payment Suite</h2>
             
-            <h2 class=" md:hidden font-mullish text-center text-2xl leading-[1.2] font-extrabold " >Explore Razorpay Payment Suite</h2>
+            <h2 class=" md:hidden font-mullish text-center text-5xl leading-[1.2] font-extrabold " >Explore Razorpay Payment Suite</h2>
 
             <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
             <!-- content box -->
@@ -500,7 +504,7 @@
                 </div>
                  
                  <!-- card box -->
-                 <div class=" grid grid-cols-3 gap-4 w-full my-14" >
+                 <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full my-14" >
                     <!-- box 1  -->
                     <!-- box 2  -->
                     <!-- box 3  -->
@@ -741,7 +745,7 @@
         <div class=" w-11/12 max-w-[1080px] mx-auto relative flex flex-col md:flex-row justify-evenly" >
 
             <!-- left part -->
-            <div class="flex flex-col justify-center w-full  md:max-w-[calc(90%-500px)] " >
+            <div class="flex flex-col justify-center w-full  md:max-w-[calc(90%-500px)] sm: my-16" >
                 <h3 class=" font-mullish font-bold text-2xl text-deepBlueHead " >Join the 50,00,000+ businesses using Razorpay
                 </h3>
                 <div class="w-6 h-1 bg-greenLight my-4 mb-10"></div>
