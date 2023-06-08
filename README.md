@@ -2,3 +2,5 @@
 My  Web-Development-Jouney
 # HTML
 # CSS
+# TAILWIND
+# JAVASCRIPT
